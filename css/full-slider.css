@@ -13,3 +13,14 @@
     -o-background-size: cover;
     background-size: cover;
 }
+
+.carousel-caption {
+    position: relative;
+    right: 0;
+    left: 0;
+    text-align: inherit;
+}
+
+.carousel-item-next, .carousel-item-prev, .carousel-item.active {
+    display: inline;
+}

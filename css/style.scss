@@ -1,5 +1,18 @@
 @import "nav/nav.css";
+@import "slider/slider.css";
+
+* {
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
 
 body {
+  color: #000;
+  font-weight: 300;
   font-family: 'Proxima Nova', Georgia, sans-serif;
+}
+
+a {
+  text-decoration: none;
 }

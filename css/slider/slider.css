@@ -1,0 +1,102 @@
+.slider {
+  width: 100%;
+  overflow: hidden;
+  position: relative; }
+
+.slide {
+  background: #93887f url("../../img/slider/slide1.gif") no-repeat top right;
+  position: relative;
+  overflow: hidden;
+  height: 100vh;
+  padding: 0;
+  background-size: cover; }
+  .slide-logo {
+    width: 960px;
+    margin: auto;
+    position: relative;
+    overflow: visible;
+    padding: 0; }
+  .slide-logo-img {
+    position: absolute;
+    top: 10px;
+    left: -70px;
+    z-index: 60;
+    width: 250px;
+    border: 0; }
+  .slide-content {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 57%;
+    width: 50%; }
+  .slide-subtitle {
+    font-size: 12pt;
+    font-family: 'Proxima Nova', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 2px; }
+  .slide-subtitle-content {
+    display: inline;
+    color: #ffffff;
+    background: #ff0000;
+    padding: 6px 15px 15px 15px;
+    margin-left: 0; }
+  .slide-title {
+    font-size: 34pt;
+    line-height: 34pt;
+    margin: 12px 0 4px 0;
+    color: #555;
+    text-transform: uppercase;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizelegibility; }
+  .slide-title-content {
+    display: inline;
+    font-weight: 900;
+    background: white;
+    padding: 2px 15px;
+    -webkit-box-decoration-break: clone;
+    -ms-box-decoration-break: clone;
+    -o-box-decoration-break: clone;
+    box-decoration-break: clone;
+    z-index: 100; }
+  .slide-description {
+    margin: 20px 0 0 130px;
+    border: 10px solid #fff;
+    padding: 5px 20px;
+    background: #ffffff;
+    max-width: 460px; }
+  .slide-description-content {
+    font-size: 10pt;
+    line-height: 16pt;
+    font-weight: 400;
+    color: #000; }
+  .slide-description-link {
+    position: absolute;
+    right: 90px; }
+  .slide-description-details {
+    border-radius: 0;
+    height: auto;
+    font-weight: 800;
+    padding: 6px 16px;
+    color: #ffffff;
+    background: #ff0000;
+    border: 1px solid #ff0000;
+    text-transform: uppercase;
+    display: inline-block;
+    transform: skewY(-18deg) scale(0.8, 1) skewX(-9deg);
+    -moz-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in; }
+  .slide-description-details:hover {
+    color: #fff !important;
+    border: 1px solid #555;
+    background-color: #555;
+    text-decoration: none; }
+
+.highliting-words {
+  color: #f00; }
+
+/*# sourceMappingURL=slider.css.map */
