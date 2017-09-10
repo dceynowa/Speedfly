@@ -20,12 +20,14 @@ $hightligting-color: #f00;
 }
 
 .carousel-item-next, .carousel-item-prev, .carousel-item.active {
-  display: inline;
+  display: block;
 }
+
 .carousel-indicators {
   margin-right: 0;
   bottom: 38px;
 }
+
 .carousel-indicators li {
   background-color: rgba(255, 255, 255, 0.0);
   border: 2px solid rgba(85, 85, 85, 1.0);
@@ -39,10 +41,12 @@ $hightligting-color: #f00;
   -webkit-border-radius: 7px;
   border-radius: 7px;
 }
+
 .carousel-indicators .active {
   border: 2px solid rgba(255, 0, 0, 1.0);
   background: rgba(255, 0, 0, 1.0);
 }
+
 // END OF BOOTSTRAP ELEMENTS
 .slider {
   width: 100%;
@@ -61,8 +65,15 @@ $hightligting-color: #f00;
     background: #93887f url("../../img/slider/slide1.jpg") no-repeat top right;
     background-size: cover;
   }
-  &-second {
+  &-second, &-third, &-fourth, &-fifth {
     background: #93887f url("../../img/slider/slide2.gif") no-repeat top right;
+  }
+  &-sixth {
+    background: #93887f url("../../img/slider/slide6.jpg") no-repeat top right;
+    background-size: cover;
+  }
+  &-seventh {
+    background: #93887f url("../../img/slider/slide7.gif") no-repeat top right;
   }
   &-logo {
     width: 960px;
