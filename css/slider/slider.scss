@@ -66,6 +66,7 @@ $hightligting-color: #f00;
   }
   &-second, &-third, &-fourth, &-fifth {
     background: #93887f url("../../img/slider/slide2.gif") no-repeat top right;
+    background-size: cover
   }
   &-sixth {
     background: #93887f url("../../img/slider/slide6.jpg") no-repeat top right;
@@ -73,6 +74,7 @@ $hightligting-color: #f00;
   }
   &-seventh {
     background: #93887f url("../../img/slider/slide7.gif") no-repeat top right;
+    background-size: covergi
   }
   &-logo {
     width: 960px;
