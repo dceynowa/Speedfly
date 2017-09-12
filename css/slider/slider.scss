@@ -74,7 +74,7 @@ $hightligting-color: #f00;
   }
   &-seventh {
     background: #93887f url("../../img/slider/slide7.gif") no-repeat top right;
-    background-size: covergi
+    background-size: cover;
   }
   &-logo {
     width: 960px;
@@ -100,7 +100,7 @@ $hightligting-color: #f00;
   }
   &-subtitle {
     font-size: 12pt;
-    font-family: 'Proxima Nova', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
     font-weight: 700;
     color: #fff;
@@ -114,8 +114,8 @@ $hightligting-color: #f00;
     margin-left: 0
   }
   &-title {
-    font-size: 34pt;
-    line-height: 34pt;
+    font-size: 30pt;
+    line-height: 33pt;
     margin: 12px 0 4px 0;
     color: #555;
     text-transform: uppercase;
@@ -127,7 +127,7 @@ $hightligting-color: #f00;
     display: inline;
     font-weight: 900;
     background: rgba(255, 255, 255, 1.0);
-    padding: 2px 15px;
+    padding: 1px 15px;
     -webkit-box-decoration-break: clone;
     -ms-box-decoration-break: clone;
     -o-box-decoration-break: clone;
