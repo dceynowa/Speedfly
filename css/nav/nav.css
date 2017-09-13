@@ -1,18 +1,32 @@
 #mainNav {
-  background-color: #000; }
+  background-color: #000;
+  min-height: 55px; }
 
 #mainNav .navbar-toggler {
-  font-size: 12px;
+  min-height: 55px;
+  top: 0;
+  left: 0;
+  position: absolute;
+  font-size: 17px;
   right: 0;
-  padding: 13px;
+  padding: 6px;
+  padding-left: 20px;
   text-transform: uppercase;
   color: white;
   border: 0;
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   text-transform: uppercase; }
 
+.navbar-toggler-icon-title {
+  font-size: 17px;
+  font-weight: bold; }
+
 .navbar-light .navbar-toggler-icon {
   background-image: none; }
+
+.navbar-toggler-icon {
+  width: 19px;
+  height: 19px; }
 
 #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
   color: #f00; }

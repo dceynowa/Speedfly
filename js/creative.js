@@ -30,12 +30,13 @@
     $(window).scroll(function () {
         if ($("#mainNav").offset().top > 100) {
             $("#mainNav").addClass("navbar-shrink");
-            $('.menu-logo').css({
-                'display': 'inline'
-            });
-            if (( window ).outerWidth < 992) {
+            if (( window ).innerWidth < 992) {
                 $('.menu-logo').css({
                     'display': 'none'
+                });
+            } else {
+                $('.menu-logo').css({
+                    'display': 'inline'
                 });
             }
         } else {
