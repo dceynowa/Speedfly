@@ -30,6 +30,9 @@
     $(window).scroll(function () {
         if ($("#mainNav").offset().top > 100) {
             $("#mainNav").addClass("navbar-shrink");
+            $('.navbar-collapse').css({
+                'background': 'transparent'
+            });
             if (( window ).innerWidth < 992) {
                 $('.menu-logo').css({
                     'display': 'none'
@@ -41,6 +44,9 @@
             }
         } else {
             $("#mainNav").removeClass("navbar-shrink");
+            $('.navbar-collapse').css({
+                'background': '#fff'
+            });
             $('.menu-logo').css({
                 'display': 'none'
             });
