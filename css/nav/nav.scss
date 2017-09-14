@@ -69,7 +69,9 @@
     -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
     transition: padding-top 0.3s, padding-bottom 0.3s;
     border: none;
-    background-color: #fff;
+    background-color: transparent;
+    margin-top: 40px;
+    padding-right: 0;
   }
   #mainNav .navbar-brand {
     font-size: 1.75em;
@@ -86,12 +88,21 @@
     -ms-transition: 0.4s ease all;
     -o-transition: 0.4s ease all;
     transition: 0.4s ease all;
+    margin-top: 0;
   }
   #mainNav .navbar-nav .nav-item .nav-link {
     font-size: 11pt;
     font-weight: 500;
     color: #555;
     text-transform: uppercase;
+  }
+  .navbar-header {
+    width: 10%;
+  }
+  .navbar-expand-lg .navbar-collapse {
+    width: 90%;
+    background: #fff;
+    padding: 10px;
   }
 }
 
@@ -142,6 +153,7 @@
   .nav-item-social {
     display: none;
   }
+
 }
 
 @media (max-width: 450px) {
