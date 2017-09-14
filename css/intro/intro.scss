@@ -1,0 +1,47 @@
+.intro {
+  height: 100vh;
+}
+.section {
+  &-title {
+    padding-top: 120px;
+    padding-left: 100px;
+    font-size: 40pt;
+    line-height: 40pt;
+    color: #555;
+    text-transform: uppercase;
+    font-weight: 800;
+  }
+  &-title-content {
+    display: inline;
+    font-weight: 800;
+    background: rgba(255, 255, 255, 1.0);
+    padding: 1px 15px;
+    -webkit-box-decoration-break: clone;
+    -ms-box-decoration-break: clone;
+    -o-box-decoration-break: clone;
+    box-decoration-break: clone;
+  }
+  &-description {
+    margin-left: 50%;
+    margin-top: 40px;
+    background: #ffffff;
+    max-width: 400px;
+  }
+  &-description-content {
+    font-size: 11pt;
+    line-height: 15pt;
+    font-weight: 400;
+    color: #000;
+  }
+  &-signature {
+    font-size: 30pt;
+    color: #555;
+    font-family: "Verveine";
+    -ms-transform: skewY(-9deg) scale(0.8,1.0) skewX(-18deg);
+    -webkit-transform: skewY(-9deg) scale(0.8,1.0) skewX(-18deg);
+    transform: skewY(-9deg) scale(0.8,1.0) skewX(-18deg);
+    margin: 30px 0 0 0;
+  }
+}
+
+
