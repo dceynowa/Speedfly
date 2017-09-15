@@ -46,19 +46,29 @@
   overflow: hidden;
   height: 100vh;
   padding: 0;
-  background-size: cover; }
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: contain; }
   .slide-first {
     background: #93887f url("../../img/slider/slide1.jpg") no-repeat top right;
-    background-size: cover; }
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: contain; }
   .slide-second, .slide-third, .slide-fourth, .slide-fifth {
     background: #93887f url("../../img/slider/slide2.gif") no-repeat top right;
-    background-size: cover; }
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: contain; }
   .slide-sixth {
     background: #93887f url("../../img/slider/slide6.jpg") no-repeat top right;
-    background-size: cover; }
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: contain; }
   .slide-seventh {
     background: #93887f url("../../img/slider/slide7.gif") no-repeat top right;
-    background-size: cover; }
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: contain; }
   .slide-logo {
     width: 960px;
     margin: auto;
@@ -115,7 +125,8 @@
     border: 10px solid #fff;
     padding: 5px 20px;
     background: #ffffff;
-    max-width: 460px; }
+    max-width: 460px;
+    position: absolute; }
   .slide-description-content {
     font-size: 10pt;
     line-height: 16pt;
