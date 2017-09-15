@@ -1,6 +1,7 @@
 @import url(nav/nav.css);
 @import url(slider/slider.css);
 @import url(intro/intro.css);
+@import url(sectionsFromSlider/sectionsFromSlider.css);
 * {
   border: 0;
   padding: 0;
