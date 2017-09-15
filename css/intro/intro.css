@@ -1,4 +1,4 @@
-.section-title {
+.intro-title {
   padding-top: 120px;
   padding-left: 100px;
   font-size: 40pt;
@@ -6,21 +6,21 @@
   color: #555;
   text-transform: uppercase;
   font-weight: 800; }
-.section-title-content {
+.intro-title-content {
   -webkit-box-decoration-break: clone;
   -ms-box-decoration-break: clone;
   -o-box-decoration-break: clone;
   box-decoration-break: clone; }
-.section-description {
+.intro-description {
   margin-left: 50%;
   margin-top: 40px;
   background: #ffffff; }
-.section-description-content {
+.intro-description-content {
   font-size: 11pt;
   line-height: 15pt;
   font-weight: 400;
   color: #000; }
-.section-signature {
+.intro-signature {
   font-size: 30pt;
   color: #555;
   font-family: "Verveine";
@@ -34,24 +34,23 @@
     margin: 0;
     padding: 0; }
 
-  .section-title {
+  .intro-title {
     padding: 60px 0 0 100px;
     font-size: 32pt;
     line-height: 34pt; } }
 @media (min-width: 992px) {
   .intro {
     height: 100vh; }
-
-  .section-description {
-    max-width: 400px; } }
+    .intro-description {
+      max-width: 400px; } }
 @media (max-width: 768px) {
   .container {
     padding: 30px;
     max-width: 100%; }
 
-  .section-title {
+  .intro-title {
     padding-left: 0; }
-  .section-description {
+  .intro-description {
     max-width: 400px;
     text-align: left;
     margin-left: 0;
