@@ -13,7 +13,7 @@
   padding: 6px;
   padding-left: 20px;
   text-transform: uppercase;
-  color: white;
+  color: #fff;
   border: 0;
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   text-transform: uppercase;
@@ -32,9 +32,6 @@
   color: #f00;
 }
 
-#mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: #f00;
-}
 
 #mainNav.navbar-shrink .navbar-brand {
   font-size: 1.25em;
@@ -61,6 +58,29 @@
 
 .navbar-expand-lg .navbar-nav .nav-link {
   padding-bottom: 0;
+}
+.nav-link {
+  position: relative;
+}
+
+.nav-link:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: #f00;
+  bottom: 0;
+  left: 0;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+.nav-link:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
 }
 
 @media (min-width: 992px) {
@@ -90,11 +110,20 @@
     transition: 0.4s ease all;
     margin-top: 0;
   }
+  .nav-item {
+    margin-left: 8px;
+    margin-right: 8px;
+  }
   #mainNav .navbar-nav .nav-item .nav-link, .nav-item.dropdown .nav-link{
     font-size: 11pt;
     font-weight: 500;
     color: #555;
     text-transform: uppercase;
+    padding-right: 0;
+    padding-left: 0;
+  }
+  .nav-link:hover {
+    color: #f00;
   }
   .dropdown-toggle::after {
     border: none;
@@ -105,19 +134,18 @@
     min-width: 200px;
   }
   .dropdown-item:hover {
-    background: red;
+    background: #f00;
   }
   .nav-dropdown-link{
-    color: white;
+    color: #fff;
     text-decoration: none;
     font-size: 9pt;
     font-weight: 700;
     text-transform: uppercase;
-    text-decoration: none;
     padding:7px 17px;
   }
   .nav-dropdown-link:hover{
-    color: white;
+    color: #fff;
     text-decoration: none;
   }
   .navbar-header {
@@ -172,7 +200,7 @@
   #mainNav .navbar-nav .nav-item .nav-link {
     border: none;
     background: none;
-    color: white;
+    color: #fff;
     display: block;
     margin: 0;
     font-size: 35pt;
@@ -182,6 +210,9 @@
   }
   .navbar-expand-lg .navbar-nav .nav-link {
     padding-top: 0;
+  }
+  .nav-link:hover {
+    color: #fff;
   }
   .nav-item-social {
     display: none;
