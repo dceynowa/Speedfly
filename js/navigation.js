@@ -62,6 +62,13 @@
         $(".menu-container").removeClass("container");
     }
 
+    //add hover dropdown menu
+    $('ul.navbar-nav li.dropdown').hover(function() {
+        $(this).find('.dropdown-menu').stop(true, true).fadeIn(200);
+    }, function() {
+        $(this).find('.dropdown-menu').stop(true, true).fadeOut(200);
+    });
+
     // Scroll reveal calls
     window.sr = ScrollReveal();
     sr.reveal('.sr-icons', {
