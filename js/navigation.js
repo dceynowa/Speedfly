@@ -30,9 +30,7 @@
     $(window).scroll(function () {
         if ($("#mainNav").offset().top > 100) {
             $("#mainNav").addClass("navbar-shrink");
-            $('.navbar-collapse').css({
-                'background': 'transparent'
-            });
+
             if (( window ).innerWidth < 992) {
                 $('.menu-logo').css({
                     'display': 'none'
@@ -41,16 +39,20 @@
                 $('.menu-logo').css({
                     'display': 'inline'
                 });
+                $('.navbar-collapse').css({
+                    'background': 'transparent'
+                });
             }
         } else {
             $("#mainNav").removeClass("navbar-shrink");
-            $('.navbar-collapse').css({
-                'background': '#fff'
-            });
             $('.menu-logo').css({
                 'display': 'none'
             });
-
+            if (( window ).innerWidth >= 992) {
+                $('.navbar-collapse').css({
+                    'background': '#fff'
+                });
+            }
         }
     });
 
