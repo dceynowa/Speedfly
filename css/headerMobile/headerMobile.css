@@ -1,3 +1,54 @@
-
+.header-mobile {
+  background-size: cover;
+  background-color: #fff;
+  color: #000;
+  background-image: url("../../img/bg_header_mobile.jpg");
+  min-height: 100vh; }
+  .header-mobile-logo-img {
+    display: block;
+    max-width: 300px;
+    margin: 20px auto 30px auto;
+    width: 100%; }
+  .header-mobile-title {
+    font-size: 36pt;
+    line-height: 32pt;
+    color: #555;
+    text-transform: uppercase;
+    font-weight: 800;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; }
+  .header-mobile-description {
+    position: relative;
+    font-size: 12pt;
+    line-height: 14pt;
+    color: #000;
+    font-weight: normal;
+    text-transform: none;
+    text-align: center;
+    margin: 20px auto;
+    padding: 0 30px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; }
+  .header-mobile-description-link {
+    position: relative;
+    border: 1px solid #ff0000;
+    background: #ff0000;
+    padding: 10px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    display: block;
+    margin: 20px auto;
+    width: 260px;
+    color: white;
+    font-size: 20px; }
+  .header-mobile-description-details {
+    color: white;
+    text-decoration: none; }
+    .header-mobile-description-details:hover {
+      color: #fff; }
+    .header-mobile-description-details:visited {
+      color: #fff; }
 
 /*# sourceMappingURL=headerMobile.css.map */

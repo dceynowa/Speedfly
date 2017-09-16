@@ -56,7 +56,7 @@
         }
     });
 
-    if (( window ).outerWidth > 992) {
+    if (( window ).outerWidth >= 992) {
         $(".menu-container").addClass("container");
     } else {
         $(".menu-container").removeClass("container");
