@@ -1,4 +1,4 @@
-.intro {
+.sneak-peak {
   &-title {
     padding-top: 120px;
     padding-left: 100px;
@@ -41,7 +41,7 @@
     margin: 0;
     padding: 0;
   }
-  .intro {
+  .sneak-peak {
     &-title {
       padding: 60px 0 0 100px;
       font-size: 32pt;
@@ -51,7 +51,7 @@
 }
 
 @media (min-width: 992px) {
-  .intro {
+  .sneak-peak {
     height: 100vh;
 
     &-description {
@@ -65,7 +65,7 @@
     padding: 30px;
     max-width: 100%;
   }
-  .intro {
+  .sneak-peak {
     &-title {
       padding-left: 0;
     }
