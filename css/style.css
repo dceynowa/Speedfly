@@ -2,6 +2,7 @@
 @import url(slider/slider.css);
 @import url(sneakPeak/sneakPeak.css);
 @import url(sectionsFromSlider/sectionsFromSlider.css);
+@import url(headerMobile/headerMobile.css);
 * {
   border: 0;
   padding: 0;
