@@ -62,13 +62,14 @@
 
 @media (max-width: 768px) {
   .container {
-    padding: 30px;
+    padding: 15px;
     max-width: 100%;
   }
   .sneak-peak {
     &-title {
       padding-left: 0;
-      font-size: 28pt;
+      font-size: 22pt;
+      line-height: 23pt;
     }
     &-description {
       max-width: 400px;

@@ -92,7 +92,7 @@ button:hover,
 .btn:active,
 .btn:focus,
 .btn:hover {
-  outline: none;
+  outline: none !important;
 }
 
 @media (min-width: 992px) {
