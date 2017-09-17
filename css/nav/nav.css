@@ -71,6 +71,16 @@
   -webkit-transform: scaleX(1);
   transform: scaleX(1); }
 
+button,
+button:active,
+button:focus,
+button:hover,
+.btn,
+.btn:active,
+.btn:focus,
+.btn:hover {
+  outline: none; }
+
 @media (min-width: 992px) {
   #mainNav {
     -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
