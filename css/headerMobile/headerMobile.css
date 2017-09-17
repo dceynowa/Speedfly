@@ -8,11 +8,11 @@
   .header-mobile-logo-img {
     display: block;
     max-width: 300px;
-    margin: 20px auto 30px auto;
+    margin: 20px auto 10px auto;
     width: 100%; }
   .header-mobile-title {
-    font-size: 32pt;
-    line-height: 32pt;
+    font-size: 21pt;
+    line-height: 20pt;
     color: #555;
     text-transform: uppercase;
     font-weight: 800;
