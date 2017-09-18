@@ -75,10 +75,14 @@
   }
 }
 @media (max-width: 768px) {
-  .faq {
+  .contact {
     &-title {
       font-size: 19pt;
       line-height: 19pt;
+    }
+    &-subtitle {
+      font-size: 15pt;
+      line-height: 17pt;
     }
   }
 }
