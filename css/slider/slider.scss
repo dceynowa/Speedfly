@@ -1,7 +1,5 @@
 $hightligting-color: #f00;
 
-//BOOTSTARP ELEMENTS
-
 .carousel-item {
   height: 100vh;
   min-height: 300px;
@@ -23,8 +21,6 @@ $hightligting-color: #f00;
   display: block;
 }
 
-
-
 .carousel-indicators li {
   background-color: rgba(255, 255, 255, 0.0);
   border: 2px solid rgba(85, 85, 85, 1.0);
@@ -37,6 +33,7 @@ $hightligting-color: #f00;
   -moz-border-radius: 7px;
   -webkit-border-radius: 7px;
   border-radius: 7px;
+  cursor: pointer;
 }
 
 .carousel-indicators .active {
@@ -98,6 +95,38 @@ $hightligting-color: #f00;
     z-index: 60;
     width: 250px;
     border: 0;
+  }
+  &-shop {
+    position: absolute;
+    bottom: 0;
+    right: 50%;
+    height: 260px;
+    width: 320px;
+    margin-top: 280px;
+    margin-right: 150px;
+    background: #f00;
+    padding: 20px 20px 50px;
+    color: #fff;
+    z-index: 99;
+  }
+  &-shop-content {
+    text-align: center;
+  }
+  &-shop-content-text {
+    display: block;
+    font-weight: 600;
+    font-size: 20pt;
+    color: #fff;
+    &:hover {
+      color: #fff;
+    }
+    &:last-child {
+      font-size: 11pt;
+    }
+  }
+  &-shop-content-img {
+    padding-top: 15px;
+    padding-bottom: 15px;
   }
   &-content {
     position: absolute;
