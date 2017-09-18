@@ -1,0 +1,76 @@
+.contact {
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  &-title {
+    font-size: 40pt;
+    line-height: 40pt;
+    font-weight: 900;
+    margin: 30px 0;
+    text-transform: uppercase;
+    color: #555;
+  }
+  &-subtitle {
+    color: #ff0000;
+    font-size: 20pt;
+    text-transform: uppercase;
+  }
+  &-customer-service {
+    color: #F00;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  &-button {
+    display: inline-block;
+    vertical-align: top;
+    top: 0;
+    right: 0;
+    padding: 10px 0 8px;
+    text-decoration: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    background: #f00;
+    border: 1px solid #f00;
+    margin: 10px 5px;
+    max-width: 210px;
+    font-size: 15px;
+    font-weight: 700;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    text-align: center;
+  }
+  &-buton-details {
+    color: #fff;
+    &:hover {
+      color: #fff;
+    }
+  }
+  &-project-main-info {
+    font-weight: 500;
+    text-align: justify;
+    margin-top: 16px;
+    margin-bottom: 16px;
+  }
+  &-project-details {;
+    font-style: italic;
+    font-weight: 500;
+  }
+}
+
+@media (max-width: 992px) {
+  .contact {
+    &-title {
+      font-size: 32pt;
+      line-height: 34pt;
+    }
+  }
+}
+@media (min-width: 992px) {
+  .contact {
+    &-project-main-info {
+      max-width: 960px;
+      margin: 16px auto;
+    }
+  }
+}
