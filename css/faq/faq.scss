@@ -38,6 +38,18 @@
     overflow: auto;
     margin: 18px auto;
     padding: 0 0;
+    max-width: 600px;
+
+  }
+  &-gallery-item {
+    display: inline-block;
+    padding: 10px;
+    &-image {
+      border: 5px solid transparent;
+    }
+    &-image:hover {
+      border: 5px solid #555;
+    }
   }
 }
 
@@ -46,6 +58,10 @@
     &-subtitle {
       font-size: 19pt;
       line-height: 19pt;
+    }
+    &-title, &-question {
+      font-size: 15pt;
+      line-height: 17pt;
     }
   }
 }

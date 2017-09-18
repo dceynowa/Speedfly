@@ -31,11 +31,22 @@
   .faq-gallery {
     overflow: auto;
     margin: 18px auto;
-    padding: 0 0; }
+    padding: 0 0;
+    max-width: 600px; }
+  .faq-gallery-item {
+    display: inline-block;
+    padding: 10px; }
+    .faq-gallery-item-image {
+      border: 5px solid transparent; }
+    .faq-gallery-item-image:hover {
+      border: 5px solid #555; }
 
 @media (max-width: 768px) {
   .faq-subtitle {
     font-size: 19pt;
-    line-height: 19pt; } }
+    line-height: 19pt; }
+  .faq-title, .faq-question {
+    font-size: 15pt;
+    line-height: 17pt; } }
 
 /*# sourceMappingURL=faq.css.map */
