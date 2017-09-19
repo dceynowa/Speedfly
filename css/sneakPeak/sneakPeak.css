@@ -1,33 +1,35 @@
-.sneak-peak-title {
-  padding-top: 120px;
-  padding-left: 100px;
-  font-size: 40pt;
-  line-height: 40pt;
-  color: #555;
-  text-transform: uppercase;
-  font-weight: 800; }
-.sneak-peak-title-content {
-  -webkit-box-decoration-break: clone;
-  -ms-box-decoration-break: clone;
-  -o-box-decoration-break: clone;
-  box-decoration-break: clone; }
-.sneak-peak-description {
-  margin-left: 50%;
-  margin-top: 40px;
-  background: #ffffff; }
-.sneak-peak-description-content {
-  font-size: 11pt;
-  line-height: 15pt;
-  font-weight: 400;
-  color: #000; }
-.sneak-peak-signature {
-  font-size: 30pt;
-  color: #555;
-  font-family: "Verveine";
-  -ms-transform: skewY(-9deg) scale(0.8, 1) skewX(-18deg);
-  -webkit-transform: skewY(-9deg) scale(0.8, 1) skewX(-18deg);
-  transform: skewY(-9deg) scale(0.8, 1) skewX(-18deg);
-  margin: 30px 0 0 0; }
+.sneak-peak {
+  height: 100vh; }
+  .sneak-peak-title {
+    padding-top: 120px;
+    padding-left: 100px;
+    font-size: 40pt;
+    line-height: 40pt;
+    color: #555;
+    text-transform: uppercase;
+    font-weight: 800; }
+  .sneak-peak-title-content {
+    -webkit-box-decoration-break: clone;
+    -ms-box-decoration-break: clone;
+    -o-box-decoration-break: clone;
+    box-decoration-break: clone; }
+  .sneak-peak-description {
+    margin-left: 50%;
+    margin-top: 40px;
+    background: #ffffff; }
+  .sneak-peak-description-content {
+    font-size: 11pt;
+    line-height: 15pt;
+    font-weight: 400;
+    color: #000; }
+  .sneak-peak-signature {
+    font-size: 30pt;
+    color: #555;
+    font-family: "Verveine";
+    -ms-transform: skewY(-9deg) scale(0.8, 1) skewX(-18deg);
+    -webkit-transform: skewY(-9deg) scale(0.8, 1) skewX(-18deg);
+    transform: skewY(-9deg) scale(0.8, 1) skewX(-18deg);
+    margin: 30px 0 0 0; }
 
 @media (max-width: 991px) {
   .container {
@@ -39,10 +41,8 @@
     font-size: 32pt;
     line-height: 34pt; } }
 @media (min-width: 992px) {
-  .sneak-peak {
-    height: 100vh; }
-    .sneak-peak-description {
-      max-width: 400px; } }
+  .sneak-peak-description {
+    max-width: 400px; } }
 @media (max-width: 768px) {
   .container {
     padding: 15px;
