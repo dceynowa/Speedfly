@@ -48,5 +48,9 @@
   .faq-title, .faq-question {
     font-size: 15pt;
     line-height: 17pt; } }
+@media (min-width: 992px) {
+  .faq-title {
+    padding-top: 60px;
+    margin-top: 40px; } }
 
 /*# sourceMappingURL=faq.css.map */

@@ -56,7 +56,9 @@
 @media (min-width: 992px) {
   .contact-project-main-info {
     max-width: 960px;
-    margin: 16px auto; } }
+    margin: 16px auto; }
+  .contact-title {
+    padding-top: 35px; } }
 @media (max-width: 768px) {
   .contact-title {
     font-size: 19pt;
