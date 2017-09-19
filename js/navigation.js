@@ -81,6 +81,8 @@
         $('.menu-logo').css({
             'display': 'inline'
         });
+        // change anchor in menu logo
+        $('.navbar-brand').attr('href', 'index.html')
     }
 
 
