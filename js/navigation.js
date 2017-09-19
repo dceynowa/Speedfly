@@ -58,6 +58,7 @@
         offset: 54
     });
 
+    //set position navbar on big screen
     if (( window ).outerWidth >= 992) {
         $(".menu-container").addClass("container");
     } else {
