@@ -79,9 +79,14 @@
         if (!$('#mainNav').hasClass('navbar-shrink')) {
             $('#mainNav').addClass('navbar-shrink')
         }
-        $('.menu-logo').css({
-            'display': 'inline'
-        });
+        if (( window ).innerWidth < 992) {
+            $('.menu-logo').css({
+                'display': 'none'
+            });
+        } else
+            $('.menu-logo').css({
+                'display': 'inline'
+            });
         // change anchor in menu logo
         $('.navbar-brand').attr('href', 'index.html')
     }
