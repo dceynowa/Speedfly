@@ -209,7 +209,7 @@ button:hover,
 @media (max-width: 450px) {
   #mainNav .navbar-nav .nav-item .nav-link {
     font-size: 30pt; } }
-@media (min-width: 145px) {
+@media (min-width: 1500px) {
   .menu-container.container {
     margin-right: auto; }
 
