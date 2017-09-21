@@ -237,3 +237,15 @@ button:hover,
     font-size: 30pt;
   }
 }
+
+@media (min-width: 1450px) {
+  .menu-container.container {
+    margin-right: auto;
+  }
+  .navbar-header {
+    width: 30%;
+    .navbar-expand-lg .navbar-collapse {
+      width: 70%;
+    }
+  }
+}

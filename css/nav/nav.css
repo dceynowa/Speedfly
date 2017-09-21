@@ -209,5 +209,13 @@ button:hover,
 @media (max-width: 450px) {
   #mainNav .navbar-nav .nav-item .nav-link {
     font-size: 30pt; } }
+@media (min-width: 145px) {
+  .menu-container.container {
+    margin-right: auto; }
+
+  .navbar-header {
+    width: 30%; }
+    .navbar-header .navbar-expand-lg .navbar-collapse {
+      width: 70%; } }
 
 /*# sourceMappingURL=nav.css.map */
