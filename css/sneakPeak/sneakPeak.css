@@ -41,6 +41,9 @@
     font-size: 32pt;
     line-height: 34pt; } }
 @media (min-width: 992px) {
+  .showOnMobile {
+    display: none; }
+
   .sneak-peak-description {
     max-width: 400px; } }
 @media (max-width: 768px) {

@@ -1,8 +1,63 @@
 .howToBegin {
-  background: #fff url("../../img/sections/howToBegin.gif") no-repeat;
+  background: #fff url("../../img/sections/howToBegin.gif") center no-repeat;
   background-size: cover;
   -webkit-background-size: cover;
-  -moz-background-size: contain;
+  -moz-background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
+
+.forTheYoungest {
+  background: #fff url("../../img/sections/forTheYoungest.jpg") center no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
+
+.speedFlyPro {
+  background: #fff url("../../img/sections/speedFlyPro.jpg") center no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
+
+.forCompany {
+  background: #fff url("../../img/sections/forCompany.jpg") center no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
+
+.shop {
+  background: #fff url("../../img/sections/shop.jpg") center no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
+
+.aboutUs {
+  background: #fff url("../../img/sections/aboutUs.jpg") center no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
   position: absolute;
   top: 0;
   left: 0;
@@ -102,6 +157,24 @@
     text-decoration: none; }
 
 @media (max-width: 992px) {
+  .howToBegin {
+    background-position: top right; }
+
+  .forTheYoungest {
+    background-position: top left; }
+
+  .speedFlyPro {
+    background-position: center left; }
+
+  .forCompany {
+    background-position: center left; }
+
+  .shop {
+    background-position: top left; }
+
+  .aboutUs {
+    background-position: center left; }
+
   .section-subtitle {
     font-size: 13pt; }
   .section-title {
@@ -114,12 +187,6 @@
   .section-description-content {
     padding-bottom: 10px; } }
 @media (min-width: 501px) and (max-width: 767px) {
-  .howToBegin {
-    background-position: top right;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover; }
-
   .section-content {
     width: 60%; }
   .section-whole-title {
@@ -133,12 +200,6 @@
     margin: 10px 20px;
     font-size: 10pt; } }
 @media (max-width: 500px) {
-  .howToBegin {
-    background-position: top right;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover; }
-
   .section-content {
     width: 100%; }
   .section-whole-title {
